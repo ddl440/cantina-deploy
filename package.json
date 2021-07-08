@@ -4,7 +4,7 @@
   "description": "Por el Grupo_9_NerdoLandia",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
