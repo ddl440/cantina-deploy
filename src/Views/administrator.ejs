@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+  <body>
+    <%- include('./partials/header') %>
+
+      <div class="titulo-section">
+        <% if(productEdit){ %> 
+          <h2>Editor del producto: "<%= productEdit.name %>" </h2>
+        <% }else{ %>
+          <h2>Creación de Productos</h2>
+        <% } %> 
+      </div>
+        
+        <main class="mainAdmin">
+          <% if(productEdit){ %> 
+            <form action="/detail/<%= productEdit.id %>?_method=PUT" class="adminForm" method="POST" enctype="multipart/form-data">
+          <% }else{ %>
+
+           <form action="/detail" method="POST" class="adminForm" enctype="multipart/form-data">
+          <% } %> 
+
+            <br>
+  <!-- Nombre -->
+              <label for="Nombre">Nombre del Producto</label>
+<br>
+
+            <% if(productEdit){ %> 
+              <input type="text" name="name" id="Nombre" value="<%= productEdit.name %> "> 
+            <% }else{ %>
+              <input type="text" name="name" id="Nombre" placeholder="Ingresa un nombre">
+            <% } %> 
+
+            <br>
+
+            <!-- Validaciones -->
+              <p id="erorresNombre" class="errores"></p>
+            <!-- Validaciones -->
+
+  <!-- Nombre -->
+
+             <br>
+
+  <!-- Descripcion -->
+            <label for="description">Ingersar descripción del producto</label>
+            <br>
+            <% if(productEdit){ %> 
+                <textarea name="description" id="Descripcion" rows="4"><%= productEdit.description %></textarea>
+            <% }else{ %>
+                <textarea name="description" id="Descripcion" rows="4" placeholder="Ingresa una descripción"></textarea>
+            <% } %> 
+
+            <!-- Validaciones -->
+                <p id="erorresDescripcion" class="errores"></p>
+            <!-- Validaciones -->
+  <!-- Descripcion -->
+
+<br>
+<br>
+
+  <!-- Categoria -->
+
+            <label>Ingresar la Franquicia</label>
+<br>
+            <select name="id_franchise" id="franchise">
+              <option value="0">Selecciona una Franquicia</option>
+              <% franquicias.forEach(franquicia => { %>
+                <option value="<%= franquicia.id %>" <% if( productEdit.id_franchise == franquicia.id ){ %> <%= "selected" %> <% } %>  ><%= franquicia.franchise_name %> </option>
+              <% }) %>
+            </select>
+
+
+            <!-- Validaciones -->
+              <p id="erorresFranchise" class="errores"></p>
+            <!-- Validaciones -->
+
+             
+  <!-- Categoria -->
+
+<br>
+<br>
+
+  <!-- Tags -->
+            <label>Ingresar la Categorias</label>
+            <br>
+              <select name="id_tag" id="franchise">
+                <option value="0">Selecciona una Categoria</option>
+                <% tag.forEach(tag => { %>
+                  <option value="<%= tag.id %>" <% if( productEdit.id_tag == tag.id ){ %> <%= "selected" %> <% } %>  ><%= tag.tag_name %> </option>
+                <% }) %>
+              </select>
+
+            <!-- Validaciones -->
+              <p id="erorresCategory" class="errores"></p>
+            <!-- Validaciones -->
+  <!-- Tags -->
+           
+<br>
+<br>
+
+<!-- Androide Del Mes -->
+
+            <label for="androide_del_mes">Androide Del Mes</label>
+            <br>
+            <% if(productEdit.androide_del_mes == "Yes"){ %> 
+            <label for="androide_del_mes">
+              <input type="radio" name="androide_del_mes" id="androide_del_mes" value="Yes" checked>
+              Si
+            </label>
+            <br>
+            <label for="androide_del_mes">
+              <input type="radio" name="androide_del_mes" id="androide_del_mes" value="No">
+              No
+            </label>
+              <% }else{ %>
+                <label for="androide_del_mes">
+                  <input type="radio" name="androide_del_mes" id="androide_del_mes" value="Yes">
+                  Si
+                </label>
+                <br>
+                <label for="androide_del_mes">
+                  <input type="radio" name="androide_del_mes" id="androide_del_mes" value="No" checked>
+                  No
+                </label>
+                <% } %>
+
+<!-- Androide Del Mes -->
+
+<br>
+<br>
+
+<!-- Heroinas -->
+            <label for="heroinas">Heroinas</label>
+            <br>
+        <% if(productEdit.heroinas == "Yes"){ %> 
+        <label for="heroinas">
+           <input type="radio" name="heroinas" id="heroinas" value="Yes" checked>
+          Si
+        </label>
+        <br>
+        <label for="heroinas">
+          <input type="radio" name="heroinas" id="heroinas" value="No">
+          No
+        </label>
+          <% }else{ %>
+            <label for="heroinas">
+              <input type="radio" name="heroinas" id="heroinas" value="Yes">
+             Si
+           </label>
+            <br>
+            <label for="heroinas">
+              <input type="radio" name="heroinas" id="heroinas" value="No" checked>
+              No
+            </label>
+            <% } %> 
+            
+
+<!-- Heroinas -->
+            <br>
+            <br>
+
+
+
+
+
+  <!-- Imagen -->
+            
+            <label for="file">Imagen del producto</label>
+<br>
+            <div class="">
+              <input type="file" alt="Submit" name="file" id="file" accept=".png, .jpg, .jpeg, .gif">
+            </div>
+
+            <!-- Validaciones -->
+            <p id="erorresFile" class="errores"></p>
+            <!-- Validaciones -->
+  <!-- Imagen -->
+<br>
+<br>
+  <!-- Precio -->
+            <label for="Precio">Ingresar Precio</label>
+<br>
+        <% if(productEdit){ %> 
+            <input type="text" name="price" id="price" value="<%= productEdit.price %>"> 
+          <% }else{ %>
+            <input type="number" name="price" id="price" placeholder="Ingresa el precio">
+          <% } %> 
+
+            <!-- Validaciones -->
+            <p id="erorresPrice" class="errores"></p>
+            <!-- Validaciones -->
+
+  <!-- Precio -->
+          
+          <br>
+          <br>
+          <br>
+             
+             <button type="submit" value="Submit">Submit</button>
+             <button type="reset" value="Reset">Reset</button>
+             <br>
+           </form>
+         </main>
+
+      <br>
+      <br>
+
+      <script src="/JS/validationsAdmin.js"></script>
+
+    <%- include('./partials/footer') %> 
+  </body>
+</html>

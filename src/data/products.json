@@ -1,0 +1,258 @@
+[
+ {
+  "Nombre": "Marvel Black Widow Funko Pop  ",
+  "Descripcion": "Figura de colección Black Widow",
+  "Categoria": "Marvel",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "Marvel-Black-Widow-Funko-POP.jpg",
+  "id": "1"
+ },
+ {
+  "Nombre": "Scarlet Witch  ",
+  "Descripcion": "Figura coleccionable de Marvel, Scarlet Witch. La cabeza de la figura tiene 9cm de alto y 7cm",
+  "Categoria": "Marvel",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "4000",
+  "image": "file-1615508648255.jpg",
+  "id": "2"
+ },
+ {
+  "Nombre": "Alien Maggie  ",
+  "Descripcion": "Figura coleccionable de Los Simpmsons, Maggie. La cabeza de la figura tiene 9cm de alto y 7cm",
+  "Categoria": "LosSimpsons",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1615508853635.jpg",
+  "id": "3"
+ },
+ {
+  "Nombre": "Captain Marvel  ",
+  "Descripcion": "Figura coleccionable de Marvel, Capitana Marvel. La cabeza de la figura tiene 9cm de alto y 7cm",
+  "Categoria": "Marvel",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1615509019715.jpg",
+  "id": "4"
+ },
+ {
+  "Nombre": "Razor Crest LEGO ",
+  "Descripcion": "Este kit de construcción de una nave estelar de 1023 piezas, un desafiante modelo para mayores de 10 años, incluye 5 personajes LEGO Star Wars coleccionables, entre ellos el Mandaloriano y el Niño. Es fantástico para jugar a interpretar y puede combinarse con otros sets LEGO Star Wars para disfrutar de más dosis de acción todavía.",
+  "Categoria": "Star Wars",
+  "Lego": "true",
+  "Precio": "6000",
+  "image": "file-1615696316928.jpg",
+  "id": "5"
+ },
+ {
+  "Nombre": "Sith Trooper",
+  "Descripcion": "En su último impulso hacia la conquista galáctica, la Primera Orden prepara un ejército de soldados de élite que se inspiran en un legado oscuro y antiguo.",
+  "Categoria": "Star Wars",
+  "Precio": "5000",
+  "id": 6,
+  "image": "file-1615696417176.jpeg"
+ },
+ {
+  "Nombre": "Ashoka Tano y AAT Lego  ",
+  "Descripcion": "Los fans pueden recrear el icónico AAT de Star Wars: Las guerras clonadas y juegan contra Battle Droid vs. Conflictos de la Legión 501.",
+  "Categoria": "Star Wars",
+  "AndroideDelMes": "true",
+  "Lego": "true",
+  "Precio": "3500",
+  "image": "file-1615697591149.jpg",
+  "id": "7"
+ },
+ {
+  "Nombre": "Casa Simpson LEGO  ",
+  "Descripcion": "Basado en la residencia original de Springfield, este asombroso modelo replica hasta el último detalle con ladrillos LEGO.",
+  "Categoria": "LosSimpsons",
+  "AndroideDelMes": "true",
+  "Lego": "true",
+  "Precio": "6000",
+  "image": "file-1615696873429.jpg",
+  "id": "8"
+ },
+ {
+  "Nombre": "Sr. Burns Funko POP  ",
+  "Descripcion": "Muñeco Funko Pop Mr. Burns 501 Los Simpsons Original",
+  "Categoria": "LosSimpsons",
+  "Funko": "true",
+  "Precio": "3000",
+  "image": "file-1615697153348.webp",
+  "id": "9"
+ },
+ {
+  "Nombre": "Grogu LEGO ",
+  "Descripcion": "Construye y expón la maqueta LEGO® Star Wars™ El Niño (75318): ¡no puede ser más adorable! Este popular personaje, cariñosamente conocido como \"Baby Yoda\", se ha recreado al estilo LEGO con detalles de gran realismo, adopta diferentes expresiones al moverle la cabeza, las orejas y la boca articuladas, y puede sujetar el pomo de la palanca de cambios incluido, su juguete favorito, igual que en Star Wars: The Mandalorian.",
+  "Categoria": "Star Wars",
+  "AndroideDelMes": "true",
+  "Lego": "true",
+  "Precio": "6000",
+  "image": "file-1615697302262.jpeg",
+  "id": "10"
+ },
+ {
+  "Nombre": "Anakin Skywalker Funko POP ",
+  "Descripcion": "Este muñeco Pop tiene el nº 271 de su colección de Star Wars CloneWars, su nombre original es Funko Pop Vinyl Anakin de la licencia Star Wars CloneWars.",
+  "Categoria": "Star Wars",
+  "Funko": "true",
+  "Precio": "4000",
+  "image": "file-1615702625567.jpg",
+  "id": "11"
+ },
+ {
+  "Nombre": "Ahsoka Tano Funko POP  ",
+  "Descripcion": "Este muñeco Pop tiene el nº 409 de su colección de Star Wars CloneWars, su nombre original es Funko Pop Vinyl Ahsoka de la licencia Star Wars CloneWars.",
+  "Categoria": "Star Wars",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "4500",
+  "image": "file-1615702704406.jpg",
+  "id": "12"
+ },
+ {
+  "Nombre": "Obi Wan Kenobi Funko POP ",
+  "Descripcion": "Este muñeco Pop tiene el nº 270 de su colección de Star Wars CloneWars, su nombre original es Funko Pop Vinyl Obi Wan Kenobi de la licencia Star Wars CloneWars.",
+  "Categoria": "Star Wars",
+  "Funko": "true",
+  "Precio": "4000",
+  "image": "file-1615702777821.jpg",
+  "id": "13"
+ },
+ {
+  "Nombre": "Villa Ewok Princess Leia Funko POP  ",
+  "Descripcion": "Este muñeco Pop tiene el nº 287 de su colección de Star Wars, su nombre original es Funko Pop Vinyl Ewok Village Leia de la licencia Star Wars.",
+  "Categoria": "Star Wars",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "4500",
+  "image": "file-1615702922030.jpg",
+  "id": "15"
+ },
+ {
+  "Nombre": "Rey Skywalker Funko POP ",
+  "Descripcion": "Este muñeco Pop tiene el nº 307 de su colección de Star Wars Rise of Skywalker, su nombre original es Funko Pop Vinyl Rey de la licencia Star Wars Rise of Skywalker.",
+  "Categoria": "Star Wars",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "4500",
+  "image": "file-1615702989230.jpg",
+  "id": "16"
+ },
+ {
+  "Nombre": "Iron Man Funko POP  ",
+  "Descripcion": "Este muñeco Pop tiene el nº 580 de su colección de Vengadores: Endgame, su nombre original es Funko Pop Vinyl I Am Iron Man Exclusive de la licencia Vengadores: Endgame.",
+  "Categoria": "Marvel",
+  "AndroideDelMes": "true",
+  "Funko": "true",
+  "Precio": "4500",
+  "image": "file-1615703296943.jpg",
+  "id": "17"
+ },
+ {
+  "Nombre": "Capitan America Con Mjolnir Funko POP ",
+  "Descripcion": "Este muñeco Pop tiene el nº 573 de su colección de Vengadores: Endgame, su nombre original es Funko Pop Vinyl Capitan America with Broken Shield & Mjolnir de la licencia Avengers: Endgame.",
+  "Categoria": "Marvel",
+  "Precio": "4500",
+  "id": 18,
+  "image": "file-1615703390549.jpg"
+ },
+ {
+  "Nombre": "White Vision Funko POP ",
+  "Descripcion": "Funko Pop! Wandavision The Vision Marvel",
+  "Categoria": "Marvel",
+  "Funko": "true",
+  "Precio": "4000",
+  "image": "file-1615703501421.webp",
+  "id": "19"
+ },
+ {
+  "Nombre": "Lisa Simpson  ",
+  "Descripcion": "De Simpsons, lisa-saxofón, como un estilizado vinilo POP de Funko! La figura mide 3 3/4 pulgadas y viene en una caja de visualización de ventana. ¡Echa un vistazo a las otras figuras de Simpson de Funko! ¡Colecciónalos todos!",
+  "Categoria": "LosSimpsons",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1618252031262.jpg",
+  "id": "20"
+ },
+ {
+  "Nombre": "Gangster Bart Funko POP ",
+  "Descripcion": "El programa de televisión de sitcom animado Simpsons ha estado en marcha desde 1989. Revivir, recordar y unir a la familia para su colección con The Simpsons Pop! Gángster Bart. La figura de vinilo mide aproximadamente 3.5 pulgadas de alto.",
+  "Categoria": "LosSimpsons",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1618252182540.jpg",
+  "id": "22"
+ },
+ {
+  "Nombre": "Hombre Radioactivo Funko POP ",
+  "Descripcion": "From Simpsons, Homer-Radioactive Man, as a stylized POP vinyl from Funko! Figure stands 3 3/4 inches and comes in a window display box. Check out the other Simpsons figures from Funko! Collect them all!",
+  "Categoria": "LosSimpsons",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1618252321507.jpg",
+  "id": "23"
+ },
+ {
+  "Nombre": "Picazón 903 Funko POP ",
+  "Descripcion": "El programa de televisión de sitcom animado Simpsons ha estado en marcha desde 1989. Revivir, recordar y unir a la familia para su colección con The Simpsons Pop! Picazón. La figura de vinilo mide aproximadamente 3.9 in de alto.",
+  "Categoria": "LosSimpsons",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1618252499820.jpg",
+  "id": "24"
+ },
+ {
+  "Nombre": "Bart Austronauta Funko POP  ",
+  "Descripcion": "From Simpsons, Bart w/Chestburster Maggie, as a stylized Pop! vinyl from Funko! Figure stands 3 3/4 inches and comes in a window display box. Check out the other Simpsons figures from Funko! Collect them all!",
+  "Categoria": "LosSimpsons",
+  "Funko": "true",
+  "Precio": "3500",
+  "image": "file-1618252570285.png",
+  "id": "25"
+ },
+ {
+  "Nombre": "LEGO Avengers Tower ",
+  "Descripcion": "Regalo ideal para los fans de los Vengadores. Lleva a los niños al corazón de la acción de Marvel Avengers con la torre Marvel Avengers de 5 pisos.",
+  "Categoria": "Marvel",
+  "Lego": "true",
+  "Precio": "4000",
+  "image": "file-1618252659708.jpg",
+  "id": "26"
+ },
+ {
+  "Nombre": "Spiderman vs spiderman Funko POP",
+  "Descripcion": "sajbdsahbdhsa",
+  "Categoria": "Marvel",
+  "AndroideDelMes": "true",
+  "Funko": "true",
+  "Precio": "6000",
+  "id": 29,
+  "image": "file-1618267092540.jpg"
+ },
+ {
+  "Nombre": "Dark Rey Funko POP  ",
+  "Descripcion": "fbsdhabfdhabshfbsdjaj",
+  "Categoria": "Star Wars",
+  "AndroideDelMes": "true",
+  "Heroina": "true",
+  "Funko": "true",
+  "Precio": "4000",
+  "id": 30,
+  "image": "file-1618965082192.jpg"
+ },
+ {
+  "Nombre": "Mochila de Grogu ",
+  "Descripcion": "¡La fuerza está contigo y es súper adorable cuando llevas esta mini mochila de personajes \"Grogu\". ¡El accesorio para fans de la serie de TV Mandalorian de Star Wars Baby Yoda es la mejor manera de transmitir tu fandom! Esta mini mochila de cuero de alta calidad como PU y acogedora sherpa material mixto mide 11.0 in de alto x 8.3 in de ancho x 3.9 in de profundidad, un montón de espacio para guardar tu sable y un montón de huevos de rana y macarrones para arrancar! Las correas de hombro ajustables hacen un gran ajuste y el diseño está realmente fuera de este mundo! Los fans del personaje llaman \"Baby Yoda\" cobra vida con orejas 3D. La mini mochila infantil con personajes Mandalorian TV tiene mucho almacenamiento y es el accesorio perfecto para regalar a cualquier fan!",
+  "Categoria": "Star Wars",
+  "AndroideDelMes": "true",
+  "Precio": "6000",
+  "image": "file-1618968142766.jpg",
+  "id": "31"
+ }
+]

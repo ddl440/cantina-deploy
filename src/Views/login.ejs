@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <%- include('./partials/head') %>
+<body> 
+  <%- include('./partials/header') %>     
+  <div class="titulo-section"> 
+    <h2>Ingresá</h2> 
+  </div> 
+  <div class="register"> 
+    <main class="register-form">
+      <form action="" method="POST" id='login'> 
+           
+          <label for="email">Correo electrónico</label><br> 
+          <input type="email" name="email" id='email' value="<%= locals.old && old.email %>">
+          <% if(locals.errors && errors.email){ %>
+            <p><%= errors.email.msg %></p>
+            <% } %>
+            
+          <br>
+                      <!-- Validaciones -->
+                      <p id="erroresEmail" class="errores" style="margin: auto;"></p>
+                      <!-- Validaciones -->
+        
+
+                       <!-- Validaciones mail format-->
+                      <p id="erroresEmailFormat" class="errores" style="margin: auto;"></p>
+                      <!-- Validaciones -->
+        <br>
+          <label for="contraseña">Contraseña</label><br> 
+          <input type="password" name="contraseña" id="password" value="<%= locals.old && old.contraseña %>">
+          <br> 
+        
+          <% if(locals.errors && errors.contraseña){ %>
+            <p><%= errors.contraseña.msg %></p>
+        <% } %>
+        <br>
+
+                    <!-- Validaciones -->
+                    <p id="erroresContraseña" class="errores" style="margin: auto;"></p>
+                    <!-- Validaciones -->
+           
+           <button type="submit" form="login"><h3>Ingresar</h3></button><br><br> 
+           <div>Recordarme <input type="checkbox" name="recordarme"></div>
+           
+           <div class="podes-ingresar-con-google"> 
+              <label> Podes ingresar con tu cuenta de Google</label> 
+              <button type="submit"> 
+                  <div class="google"> 
+                      <i class="fab fa-google"> 
+                          <a href="https://www.google.com/"></a> 
+                      </i> 
+                  </div> 
+              </button> 
+          </div>
+           
+          <br>
+          
+        </form> 
+        <button><a href="/users/register">Creá tu cuenta</a></button>
+    </main>
+  </div> 
+  <br>
+  <br>
+<%- include('./partials/footer') %> 
+<script src='js/login.js'></script> 
+</body> 
+</html>

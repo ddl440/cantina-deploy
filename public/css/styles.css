@@ -1,0 +1,1830 @@
+body{
+    background-color: black !important;
+    margin: 0px;
+    background-image: url(/Imagenes/Fondo-Background05.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-image: url(/Imagenes/Fondo-Background02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div{
+    display: flex;
+    margin: 5px 0;
+    width: 360px;
+    max-height: 60px;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 100%;
+    height: 9vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo img:hover{
+    transform: scale(0.95);
+    border-radius: 10px;
+    transition: 250ms;
+}
+
+header .logo .carritoE{
+    display: none;
+    max-width: fit-content;
+}
+
+header .logo a i:hover{
+    background-color: #00c2cb;
+    color: #000059;
+    transform: scale(0.85);
+    transition: 700ms;
+}
+
+header p{
+    color: blue;
+}
+
+header .desktopNavBar{
+    display: none;
+    visibility: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    height: 6vh;
+    background-color: white;
+}
+
+header .burger{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .burger:hover{
+    min-height: fit-content;
+}
+
+header .burger:hover .menuButton
+
+.menuButton{
+    display: block;
+    justify-self: center;
+    background-color: white;
+}
+
+header .mobileNavBar{
+    display: none;
+    width: max-content;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+header .mobileNavBar nav{
+    display: block;
+    height: max-content;
+}
+
+li .dropdown{
+    width: 100%;
+}
+
+li .dropdown .navCategorias .dropbtn{
+    min-width: 100%;
+    font-size: 2vh;
+}
+
+li .dropdown .dropdown-content{
+    position: relative;
+    max-height: fit-content;
+    padding-bottom: 10px;
+}
+
+li .dropdown .dropdown-content a{
+    font-size: 2vh;
+}
+
+header .burger:hover .mobileNavBar{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.mobileNavBar nav ul{
+    width: 375px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: white;
+}
+
+.mobileNavBar nav li{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.burger .fa-bars{
+    background-color: white;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2vh;
+    padding: 0 3.2px 0 3.2px;
+    background-color: white;
+    color: black;
+    align-content: center;
+    font-family: 'Russo One', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid;
+    border-color: white;
+}
+
+nav a .dropdown{
+    text-decoration: none;
+    padding: 0 3.2px 0 3.2px;
+    background-color: white;
+    align-content: center;
+    font-family: 'Russo One', sans-serif;   
+}
+
+nav a .dropbtn{
+    font-size: 2vh;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #00c2cb; 
+    border-bottom: solid;
+    border-color: #00c2cb;
+    transition: 250ms;
+}
+
+.titulo-Section{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: whitesmoke;
+    display: inline-block!important;
+    font-family: 'Oxanium', cursive;
+    width: 100%;
+}
+
+footer h2{
+    margin: 10px;
+    color: black;
+    text-align: center;
+    background-color: #00c2cb;
+    border-radius: 10px;
+}
+
+.productD{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 2%;
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.productD .Imagen{
+    width: 50%;
+    justify-self: flex-start;
+}
+
+.productD .Imagen img{
+    width: 100%;
+    justify-self: flex-start;
+}
+
+.productD .Info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+}
+
+.productD .Info h1{
+    color: #00c2cb;
+    font-size: 25px;
+    width: 100%;
+    height: fit-content;
+}
+
+.productD .Info .franchise{
+    background-color: #ff0044;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-size: 25px;
+    height: fit-content;
+    margin: 2%;
+}
+
+.productD .Info h2{
+    color: #00153D;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 70%;
+    height: fit-content;
+}
+
+.productD .Info form{
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin-right: 5%;
+    margin: 3% 3%;
+}
+
+.productD .Info form button{
+    font-size: 20px;
+    border: solid 2px;
+    border-color: #2CD1FF;
+    background-color: white;
+}
+
+.productD .Info form button:hover{
+    border: solid 2px;
+    border-radius: 15px;
+    background-color: #00c8ff;
+    border-color: #00c2cb;
+    color: black;
+    transition: 400ms;
+}
+
+.productD .Info p{
+    display: inline-block;
+    max-width: 70%;
+    font-size: 16px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+/*  CLASES  */
+
+.logo a img{
+    width: 8vh;
+}
+
+/*  DESTACADOS  */
+.destacados h2{
+    font-family: 'Russo One', sans-serif;
+    background-color: #00c2cb;
+    border-color: gray;
+    border: 2px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.productos article img{
+    width: 75%;
+    height: fit-content;
+    align-self: center;
+    margin: 0;
+    
+}
+
+.productos a{
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 15px;
+    border-radius: 15px;
+    background-color: white;
+    width: 225px;
+    transform: 1s all;
+    text-align: center;
+}
+
+.productos article:hover{
+    transform: scale(0.95);
+    transition: 700ms;
+    color: #00c2cb;
+}
+
+.productos article .infoDelProducto{
+    margin: 7px;
+    align-self: flex-end;
+    font-family: 'Russo One', sans-serif;   
+}
+
+.productos article .descripcion{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+}
+
+.productos article .precio{
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*  FIN DESTACADOS  */
+
+        /*  Carousle    */
+
+
+        /*  Fin Carousel    */
+
+.fas{
+    font-size: 4vw;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*  FOOTER  */
+
+.footerInfo{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.masInfo{
+    text-align: left;
+    align-self: flex-start;
+}
+
+.masInfo ol{
+    font-size: 10px;
+}
+
+.contacto{
+    text-align: right;
+    font-size: 10px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.contacto .fa-facebook{
+    font-size: 20px;
+    background-color: #00c2cb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contacto .fa-linkedin{
+    font-size: 20px;
+    background-color: #00c2cb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contacto .fa-twitter-square{
+    font-size: 20px;
+    background-color: #00c2cb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contacto p{
+    text-align: center;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+}
+
+/*  FIN FOOTER   */
+
+#searchBar{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin: 22px 0 22px 5px;
+    font-size: 3vw;
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    text-align: inherit;
+    border: 0;
+    border-radius: 19px;
+    padding-left: 1%;
+    align-self: center;
+}
+
+#searchBttn{
+    border: 0;
+    border-radius: 50%;
+}
+
+#searchBttn .fa-search{
+    border-radius: 100%;
+    background: none;
+}
+
+.logo form{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 2rem;
+    width: 45%;
+    height: 2.4rem;
+}
+
+.logo form button{
+    padding: 0;
+}
+
+.logo form button i{
+    font-size: 1em;
+}
+
+/* productDetail.html */
+.nav header {
+    display:hidden;
+}
+
+.logo .carrito {
+    display:none;
+}
+
+.logo .inicio-sesion {
+    display:block;
+    max-width: fit-content;
+}
+
+.logo .imgProfile{
+    width: 10vw;
+}
+
+.product-section {
+
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: 'Russo One', sans-serif;
+    display: block;
+}
+
+.product-name {
+    margin-top: 10px;
+    border-top: 2px solid gray;
+}
+
+.price {
+    font-size:24px;
+    color: #00c2cb;
+}
+
+.quantity-addtocart {
+    text-align: center;
+}
+
+.quantity-addtocart input{
+    border-radius: 8px;
+    margin-right: 5px;
+
+}
+
+.quantity-addtocart button{
+    border-radius: 10px;
+    background-color:  #00c2cb;
+    box-sizing: border-box;
+}
+
+.quantity-addtocart button p {
+    margin: auto;
+}
+
+.description {
+    margin-top: 15px;
+    border-top: 2px solid gray;
+    padding: 5px;
+}
+
+.description p {
+    margin-top: 10px;
+}
+
+.title {
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 20px;
+    color: black;
+    width: 50%;
+    background-color: #00c2cb;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.related-products {
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item .precio{
+    border-radius: 8px;
+    text-align: center;
+}
+.nombre-producto,.precio {
+    background-color: white;
+    padding: 5px;
+}
+
+.delete-edit {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    margin: auto;
+    width:90%;
+}
+.delete-product button {
+    background-color: #00c2cb;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.edit-product button {
+    background-color: #00c2cb;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.menuButton {
+    display:block;
+}
+
+
+
+
+/* register.html */
+
+.register {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2% 0;
+}
+
+.mainAdmin{
+    display: flex;
+    justify-content: center;
+}
+
+main .adminForm{
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0;
+    text-align: -webkit-center;
+    padding: 3vh;
+}
+
+#Descripcion{
+    width: 50%;
+}
+
+form input{
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+form textarea{
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+form textarea:focus{
+    outline: 0px;
+}
+
+form input:focus{
+    outline: 0px;
+}
+
+form #file{
+    border: inherit;
+    border-radius: inherit;
+}
+
+.errores{
+    display: none;
+    border-radius: 15px;
+    background-color: #F9D4D4;
+    padding: 1%;
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    color:red;
+    text-align: center;
+    border: solid 3px;
+    width: fit-content;
+    justify-self: center;
+    font-family: 'Oxanium', cursive;
+}
+
+.Formu-Registro {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.radioInputs{
+    width: 20%;
+    text-align: left;
+}
+
+.radioInputs input{
+    margin-right: 10px;
+}
+
+.fileInputs{
+    border: 0;
+    background-color: blue;
+}
+
+
+/* ProductCart.html */
+
+.carritoBody{
+    display: flex;
+}
+
+.carritoBody section{
+    background-color: white;
+    padding: 1%;
+    border-radius: 2rem;
+    height: fit-content;
+}
+
+.carritoBody section .totalCarrito{
+    text-align: left;
+}
+
+.descripcion{
+    color: #337ab7;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+}
+
+.carrito{
+    display: flex;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carritoDetail{
+    display: flex;
+    width: 90%;
+    height: 15vw;
+    margin: 1% 0;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.carritoDetail a{
+    width: 100%;
+}
+
+.carritoDetail a article{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.carritoDetail a article img{
+    height: 100%;
+    width: 22%;
+}
+
+.carritoDetail a article .infoDelProducto{
+    height: 100%;
+    width: 80%;
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+}
+
+.carritoDetail a article .infoDelProducto .descripcion{
+    font-size: 2vw;
+    color: black;
+}
+
+.caja-producto{
+    width: 320px;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: space-between;
+    font-size:20px;
+    background-color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    padding-top: 15px;
+}
+
+.caja-detalles {
+    column-count: 3;
+    display: inline-block;
+}
+
+.botonesDetail {
+    float: right;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid;
+    width: 10%;
+    background-color: #2CD1FF;
+    font-family: 'Oxanium', cursive;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.botonesDetail button{
+    font-size: 16px;
+    border: solid;
+    background-color: white;
+    color: #00c2cb;
+    border-color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.botonesDetail button:hover{
+    border-radius: 15px;
+    border-color: white;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+  /* Titulo para las secciones Carrito, Formulario Adrministrador, LogIn, Descripcion Carrito*/
+
+  .titulo-section{
+    color:#00c2cb;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+  }
+
+  .titulo-Section img{
+      width: 80%;
+  }
+
+
+/* Dropdown Button */
+.dropbtn {
+    text-decoration: none;
+    font-size: 1.5vw;
+    background-color: white;
+    color: black;
+    align-self: center;
+    font-family: 'Russo One', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid;
+    border-color: white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 13vw;
+    align-items: center;
+    align-self: center;
+  }
+
+  .navCategorias{
+      display: flex;
+      height: 100%;
+      align-content: center;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0;
+    font-size: 1.5vw;
+    padding: 0;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: white;
+      border-radius: 0;
+      border: 0;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    text-decoration: none;
+    color: #00c2cb;
+    border-color: #00c2cb;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 250ms;
+    }
+
+
+/* PERFIL */
+
+/* .register {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mainAdmin{
+    display: flex;
+    justify-content: center;
+}
+
+main .adminForm{
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0;
+    text-align: -webkit-center;
+    padding: 3vh;
+} */
+
+.containerPerfil {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    margin: 1%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    align-content: flex-start;
+}
+
+.infoPerfil{
+    background: white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 1% 2%;
+    font-size: smaller;
+}
+
+.infoPerfil h2{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline #00c2cb;
+    font-size: large;
+}
+
+.infoPerfil ul{
+    list-style-type: none;
+    padding: 3%;
+}
+
+.infoPerfil ul li{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.saludo-perfil{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    height: fit-content;
+    max-width: 40%;
+}
+
+.cajita {
+    justify-content: space-evenly;
+    align-content: center;
+    background: #00c2cb;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.saludo-perfil .cajita h2 {
+    align-self: center;
+    background-color: #00c2cb;
+    height: fit-content;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-weight: bold;
+    font-size: large;
+}
+
+.saludo-perfil img {
+    background-color: black;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border: solid 2px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}  
+
+.comprasRecientes {
+    display: none;
+    background-color: #00c2cb;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+#logout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#logout button {
+    display: block;
+    height: fit-content;
+    border: solid black 2px;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin: 3% 3%;
+
+    font-size: small;
+}
+
+#logout button:hover {
+    background-color: red;
+    color: black;
+    transform: scale(0.95);
+    transition: 500ms;
+}
+
+/* about us */
+.main {
+    display: block;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.creadores h1 {
+    font-family: 'Oxanium';
+    background-color:  #00c2cb;
+    color: #44515E;
+    font-size: 5vh; 
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+.creadores {
+    width: 85%;
+    text-align:center;
+    margin: auto;
+    display: block;
+}
+
+
+.header-aboutUs img {
+    display: block;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.agos {
+        text-align: justify;
+        background-color: whitesmoke;
+        font-family: 'Oxanium', cursive;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 40px;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: wrap;
+}
+
+.dani {
+    text-align: justify;
+    background-color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.marcos {
+    text-align: justify;
+    background-color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.agos h2 {
+    font-family: 'Oxanium', cursive;
+    color:  #00c2cb;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 4.5vh;
+}
+
+.dani h2 {
+    font-family: 'Oxanium', cursive;
+    color:  #00c2cb;
+    text-align: right;
+    margin-right: 35px;
+    font-size: 4vh;
+}
+
+.marcos h2 {
+    font-family: 'Oxanium', cursive;
+    color:  #00c2cb;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 4.5vh;
+}
+
+
+
+.presentacion p {
+    font-family: 'Oxanium', cursive;
+    color: grey;
+    font-size: 1.5vh;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+#foto-perfil {
+    margin:5px;
+    width:30%;
+    height:30%;
+   
+    
+}
+
+
+@media (min-width: 791px){
+    header .burger{
+        display: none;
+    }
+
+    header .desktopNavBar{
+        display: flex;
+        visibility: visible;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+        height: 10%;
+    }
+
+    .dropbtn{
+        font-size: 2.5vw;
+    }
+
+    .container{
+        width: 60vw;
+    }
+
+    /* .item{
+        width: 60vw;
+        height: auto;
+        margin: auto;
+    } */
+
+    .item a{
+        text-align: center;
+    }
+
+    .productos a:hover{
+        transform: scale(0.90);
+        text-decoration: none;
+        transition: 700ms;
+    }
+
+    .destacados h2{
+        font-size: 7vw;
+    }
+
+    header{
+        height: auto;
+        padding-top: 10px;
+    }
+    
+    header .logo{
+        height: auto;
+        max-height: none;
+    }
+
+    .logo a img{
+        width: 12vh;
+    }
+    .logo .inicio-sesion {
+        display:block;
+    }
+    header .logo .carritoE {
+        display:block;
+    }
+
+    header .logo img:hover{
+        transform: scale(0.95);
+        border-radius: 30px;
+        transition: 250ms;
+    }
+    
+    header .logo a i:hover{
+        background-color: white;
+        color: #00c2cb;
+        transform: scale(0.85);
+        transition: 700ms;
+    }
+
+    .login{
+        margin: 0 20%;
+        border-radius: 30px;
+    }
+
+    #searchBar {
+        font-size: 20px;
+    }
+
+    nav a{
+        font-size: 2.5vw;
+    }
+
+    .destacados h2{
+        border-radius: 20px;
+        padding: 10px 40px;
+    }
+    /* productDetail */
+     .product-section {
+        margin: auto;
+        margin-top: 15px;
+        width: 90%;
+        border: 1px solid gray;
+        padding: 10px;
+        background-color: white;
+        border-radius: 7px;
+        font-family: 'Russo One', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section section {
+        margin: 0 auto;
+    }
+    .product-name {
+        border-top: 2px;
+    }
+    .product-name h4 {
+        font-size: 36px; 
+        margin-top: 15px;
+    }
+    
+    .price {
+        font-size:40px;
+        color: #00c2cb;
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    .quantity-addtocart {
+        margin-top: 40px;
+        text-align: right;
+    }
+    
+    .quantity-addtocart input{
+        border-radius: 8px;
+        margin-right: 10px;
+        width: 30px;
+        height: 40px;
+    
+    }
+    
+    .quantity-addtocart button{
+        border-radius: 10px;
+        background-color:  #00c2cb;
+        box-sizing: border-box;
+        
+    }
+    
+    .quantity-addtocart button p {
+        margin: auto;
+        font-size: 24px;
+    }
+    .description {
+        margin-top: 15px;
+        border-top: 2px solid gray;
+        padding: 5px;
+    }
+    
+    .description p {
+        margin-top: 15px;
+        font-size: 20px;
+    } 
+
+    .title {
+        margin: auto;
+        margin-top: 15px;
+        width: 90%;
+        font-size: 35px;
+        color: black;
+        width: 50%;
+        background-color: #00c2cb;
+        text-align: center;
+        border-radius: 8px;
+        
+    }
+    .related-products {
+        margin: auto;
+        margin-top: 15px;
+        width: 90%;
+        padding: 10px;
+        border-radius: 7px;
+        font-family: 'Russo One', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .flex-item .precio{
+        border-radius: 8px;
+        text-align: center;
+    }
+    .nombre-producto,.precio {
+        background-color: white;
+    }
+    .delete-edit {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        margin: auto;
+        width: 90%;
+    }
+    .delete-product button {
+        background-color: #00c2cb;
+        margin-right: 10px;
+        margin-top: 15px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .edit-product button {
+        background-color: #00c2cb;
+        margin-right: 10px;
+        margin-top: 15px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .menuButton {
+        display:none;
+    }
+    
+    /* Titulo para las secciones Carrito, Formulario Adrministrador, LogIn, Descripcion Carrito*/
+
+    .titulo-section{
+        color:#00c2cb;
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+        }
+    /* perfil */
+    .infoPerfil h2{
+        font-size: 32px;
+    }
+
+    .infoPerfil ul li{
+        font-size: large;
+    }
+
+    .saludo-perfil{
+        max-width: 30%;
+    }
+
+    .saludo-perfil .cajita{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+
+    .saludo-perfil .cajita h2 {
+        background-color: #00c2cb;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 32px;
+    }
+    .saludo-perfil img {
+        vertical-align: middle;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        margin-right: 5px;
+    }
+    .comprasRecientes{
+        display: block;
+        height: fit-content;
+        padding: 0 2%;
+    }
+
+    #logout button{
+        font-size: x-large;
+    }
+}
+
+@media (min-width: 1000px){
+
+    header{
+        height: auto;
+        padding-top: 10px;
+        background-color: #000059;
+    }
+    
+    header .logo{
+        height: auto;
+        max-height: none;
+    }
+
+    header .logo a img{
+        width: 4vw;
+    }
+
+    header nav{
+        display: flex;
+        visibility: visible;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+        height: 7vh;
+    }
+
+    header nav a{
+        font-size: 1.5vw;
+        padding: 3px 20px;
+    }
+
+    .productD{
+        width: 60%
+    }
+
+    .productD .Info h1{
+        font-size: 35px;
+    }
+
+    .productD .Info p{
+        max-width: 90%;
+    }
+
+    .container{
+        width: 65vw !important;
+    }
+
+    .logo form{
+        height: 3.4rem;
+    }
+
+    .logo form button{
+        min-width: 2vw;
+        border: 0;
+        background-color: white;
+    }
+
+    .logo form button i{
+        font-size: 1em;
+        background-color: white;
+    }
+
+    #searchBar {
+        font-size: 20px;
+        border: 0;
+        border-radius: 19px;
+        padding-left: 1%;
+        width: 90%;
+        font-family: 'Russo One', sans-serif;
+        text-align: inherit;
+    }
+
+    .logo i{
+        font-size: 2vw;
+    }
+
+    .logo .inicio-sesion {
+        display:block;
+    }
+    .logo .carrito {
+        display:block;
+    }
+
+    .logo a img{
+        width: 13vh;
+    }
+
+    .logo .imgProfile{
+        width: 4vw;
+    }
+
+    .login{
+        margin: 0 20%;
+        border-radius: 30px;
+    }
+
+    .dropbtn{
+        font-size: 1.5vw;
+    }
+
+    .navCategorias{
+        display: flex;
+        height: 100%;
+        align-content: center;
+    }
+
+    .destacados h2{
+        border-radius: 20px;
+        padding: 10px 40px;
+    }
+
+    .productos article{
+        height: 320px;
+    }
+
+
+    .section-producto {
+        border-radius: 20px;
+    }
+    /* productDetail */
+    .product-section {
+        margin:auto;
+        margin-top: 15px;
+        width: 90%;
+        border: 1px solid gray;
+        padding: 10px;
+        background-color: white;
+        border-radius: 15px;
+        font-family: 'Russo One', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .product-section .product-img {
+        width: 55%;
+        margin: 15px;
+    }
+
+    .product-img img {
+        width:90%;
+    }
+    .product-section section {
+        width:40%;
+        margin-right: 10px;
+        margin-top: 50px;
+
+    }
+    .quantity-addtocart {
+        margin-right: 30px;
+    }
+    .product-name h4 {
+        font-size: 50px; 
+        margin-top: 15px;
+    }
+    .price {
+        font-size:60px;
+        color: #00c2cb;
+        text-align: left;
+        margin-top: 60px;
+    }
+    
+    .quantity-addtocart {
+        margin-top: 150px;
+        text-align: right;
+    }
+    
+    .quantity-addtocart input{
+        border-radius: 8px;
+        margin-right: 10px;
+        width: 50px;
+        height: 55px;
+    
+    }
+    
+    .quantity-addtocart button{
+        border-radius: 10px;
+        background-color:  #00c2cb;
+        box-sizing: border-box;
+        
+    }
+    
+    .quantity-addtocart button p {
+        margin: auto;
+        font-size: 36px;
+        padding: 5px;
+    }
+    .description {
+        width: 100%;
+    }
+    .description p {
+        font-size: 36px;
+    }
+    .delete-edit {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        margin: auto;
+        width:90%;
+
+    }
+    .delete-product button {
+        background-color: #00c2cb;
+        margin-right: 10px;
+        margin-top: 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        text-align: right;
+    }
+    .edit-product button {
+        background-color: #00c2cb;
+        margin-right: 10px;
+        margin-top: 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        text-align: right;
+    }
+    
+/* perfil */
+.saludo-perfil h2 {
+    background-color: #00c2cb;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.saludo-perfil img {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    margin-right: 5px;
+  }
+
+/* Titulo para las secciones Carrito, Formulario Adrministrador, LogIn, Descripcion Carrito*/
+
+    .titulo-section{
+    color:#00c2cb;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    }
+
+    
+    /* about us */
+    .main {
+        display: block;
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    .creadores h1 {
+        font-family: 'Oxanium';
+        background-color:  #00c2cb;
+        color: #44515E;
+        font-size: 10vh; 
+        width: 60%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        
+    }
+
+    .creadores {
+        width: 85%;
+        text-align:center;
+        margin: auto;
+        display: block;
+    }
+
+
+    .header-aboutUs img {
+        display: block;
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+    .agos {
+            text-align: justify;
+            background-color: whitesmoke;
+            font-family: 'Oxanium', cursive;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 40px;
+            border-radius: 15px;
+            padding: 5px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: wrap;
+    }
+
+    .dani {
+        text-align: justify;
+        background-color: whitesmoke;
+        font-family: 'Oxanium', cursive;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 40px;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: wrap;
+    }
+
+    .marcos {
+        text-align: justify;
+        background-color: whitesmoke;
+        font-family: 'Oxanium', cursive;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 40px;
+        border-radius: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: wrap;
+    }
+
+    .agos h2 {
+        font-family: 'Oxanium', cursive;
+        color:  #00c2cb;
+        text-align: left;
+        margin-left: 25px;
+        font-size: 3em;
+    }
+
+    .dani h2 {
+        font-family: 'Oxanium', cursive;
+        color:  #00c2cb;
+        text-align: right;
+        margin-right: 30px;
+        font-size: 3em
+    }
+
+    .marcos h2 {
+        font-family: 'Oxanium', cursive;
+        color:  #00c2cb;
+        text-align: left;
+        margin-left: 25px;
+        font-size: 3em;
+    }
+
+
+
+    .presentacion p {
+        font-family: 'Oxanium', cursive;
+        color: grey;
+        font-size: 2em;
+        padding: 10px;
+        margin: 15px;
+        box-sizing: border-box;
+    }
+
+    #foto-perfil {
+        margin:5px;
+    }
+
+}
+
+    .titulo-register {
+    color:#00c2cb;
+    font-family: 'Russo One', sans-serif;
+    text-align: left;
+    margin: 30px;
+}
+
+.register {
+    margin: 0 30%;
+    border-radius: 30px;
+}
+

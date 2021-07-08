@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+<body>
+  <%- include('./partials/header') %>
+  <br>
+  <br>
+
+  <br>
+
+  <div class="titulo-Section">
+    <% if(product.franquicia_producto.franchise_name == "Marvel"){ %> 
+      <img src="/Imagenes/<%= marvelBanner %>"  alt="">
+    <% }if(product.franquicia_producto.franchise_name == "Star Wars"){ %>
+        <img src="/Imagenes/<%= starWarsBanner %> " alt="">  
+    <% }if(product.franquicia_producto.franchise_name == "Los Simpsons"){ %> 
+      <img src="/Imagenes/<%= losSimpsonsBanner %> " alt="">  
+    <% } %>
+  </div>
+  <br>
+  <br>
+
+  <main class="productD">
+    <div class="Imagen">
+        <img src="/Imagenes/products/<%= product.image %>" alt="<%= product.name %>">
+    </div>
+    <div class="Info">
+        <h1><%= product.name %></h1>
+        <br>
+        <button class="franchise"><%= product.franquicia_producto.franchise_name %> </button>
+        <button class="franchise"><%= product.productoTag.tag_name %> </button>
+        <br>
+        <h2>$<%= product.price %> </h2>
+        <br>
+        <br>
+        <form action="">
+            <button>Comprar</button>
+        </form>
+        <p><%= product.description %> </p>
+
+    </div>
+
+  </main>
+
+  <br>
+  <br>
+  <br>
+  <br>
+    <% if(user){ %> 
+    <div class="botonesDetail">   
+        <a href="/detail/edit/<%= product.id %>" ><button>Editar</button></a>
+        <form action="/detail/delete/<%= product.id %>" method='POST'>
+            <button>Borrar Producto</button>
+        </form>
+    </div>
+
+    <% } %> 
+    <br>
+    <br>
+      <%- include('./partials/footer') %> 
+</body>
+</html>
+  
